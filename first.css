@@ -352,3 +352,105 @@ header {
 .pilih:active {
   background: #4c8f9e;
 }
+
+/* profil pt */
+.profil {
+  background-color: #83b7d4;
+  height: 520px;
+  width: 100%;
+  box-shadow: 0px 22px 77px rgba(100, 100, 100, 0.96),
+    0px 17.3745px 27.2324px rgba(0, 0, 0, 0.464223),
+    0px 14.3686px 16.7159px rgba(0, 0, 0, 0.320852),
+    0px 12.1835px 11.8797px rgba(0, 0, 0, 0.225769),
+    0px 9.82926px 8.64195px rgba(0, 0, 0, 0.153357),
+    0px 6.99119px 5.83502px rgba(0, 0, 0, 0.0942912),
+    0px 3.68795px 3.0175px rgba(0, 0, 0, 0.0440298);
+}
+.main-profil {
+  height: 100%;
+  text-align: center;
+  width: 848px;
+  margin: 0 auto;
+}
+.main-profil h1 {
+  padding-top: 38px;
+  font-size: 40px;
+  margin: 60px 0;
+  letter-spacing: 4px;
+}
+.main-profil p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  margin-bottom: 30px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
+.regis {
+  text-align: center;
+  color: white;
+  background-color: rgb(36, 155, 202);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px -3px 5px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  line-height: 33px;
+  margin-top: 26px;
+  width: 279px;
+  height: 55px;
+  font-size: 24px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.regis:active {
+  position: relative;
+  top: 6px;
+  background-color: rgb(28, 107, 138);
+}
+/* footer */
+footer {
+  background-color: #0f778e;
+  height: 211px;
+}
+.foot-main{
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+.atas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 672px;
+}
+.tim {
+  color: black;
+  margin-right: 60px;
+  margin-top: 15px;
+}
+.foot {
+  width: 220px;
+  margin: 0 auto;
+}
+.foot h3 {
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+.foot p {
+  color: rgb(189, 189, 189);
+
+  font-size: 14px;
+}
+.btnn {
+  padding: 8px 5px;
+  margin-right: 10px;
+  border-radius: 3px;
+  background-color: white;
+
+  border: 2px solid rgb(62, 32, 168);
+}
+.tl:hover {
+  color: black;
+}
+.cs:hover {
+  color: black;
+}
