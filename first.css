@@ -1,0 +1,354 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande";
+  background-color: rgba(197, 197, 197, 0.623);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* header css */
+header {
+  width: 100%;
+  height: 85px;
+  background-color: rgba(255, 255, 255, 0.95);
+  border-bottom: 1px solid rgb(187, 187, 187);
+  box-shadow: 9px 5px 2px rgba(0, 0, 0, 0.15);
+  position: fixed;
+  z-index: 1;
+}
+.konten {
+  max-width: 1270px;
+  height: 100%;
+  margin: 0 auto;
+}
+.head-kiri {
+  float: left;
+  line-height: 70px;
+}
+.head-kanan {
+  float: right;
+  display: flex;
+}
+.menu-head {
+  float: left;
+  display: flex;
+  padding: 0 px;
+  line-height: 80px;
+}
+.menu-head p {
+  font-size: 20px;
+  padding: 0 18px;
+  transition: all 1s;
+  margin-right: 2px;
+}
+.btn {
+  padding: 8px 35px;
+  margin-right: 10px;
+  line-height: 80px;
+  border-radius: 3px;
+}
+.login {
+  background: #ffffff;
+  border: 1px solid #83b7d4;
+  color: #83b7d4;
+  transition: all 1s;
+}
+.daftar {
+  background-color: #2fa4bd;
+  border: 1px solid #ffffff;
+  color: white;
+  transition: all 1s;
+}
+.menu-head p:hover {
+  background-color: rgb(219, 219, 219);
+}
+.login:hover {
+  background-color: #83b7d4;
+  border: 1px solid #83b7d4;
+  color: #fff;
+}
+.daftar:hover {
+  background: #ffffff;
+  border: 1px solid #83b7d4;
+  color: #83b7d4;
+}
+.menu-icon {
+  position: relative;
+  float: right;
+  cursor: pointer;
+  display: none;
+  margin-top: 26px;
+}
+.menu-icon img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+.dropmenu {
+  display: none;
+  font-size: 20px;
+  position: absolute;
+  padding: 0px 0px;
+  top: 40px;
+  left: -120px;
+  min-width: 140px;
+  height: 250px;
+  box-shadow: 0 5px 8px 5px rgba(160, 161, 160, 0.685);
+  background-color: rgba(40, 165, 238, 0.966);
+  border: 1px solid rgb(155, 153, 153);
+  transition: all 2s;
+}
+.dropmenu a {
+  padding: 11px 0;
+  text-align: center;
+  color: rgb(49, 45, 45);
+  line-height: 25px;
+  display: block;
+}
+.dropmenu a:hover {
+  background-color: gainsboro;
+  border-bottom: 1px solid grey;
+}
+.menu-icon:hover .dropmenu {
+  display: block;
+}
+
+/* konten-top */
+.top {
+  background-image: url();
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1606765962248-7ff407b51667?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"),
+    #c4c4c4;
+  background-size: cover;
+  box-shadow: 3px 15px 20px 3px rgba(0, 0, 0, 0.29);
+  padding: 150px 0 100px 0;
+  height: 680px;
+}
+.text-top h2 {
+  color: white;
+  opacity: 0.9;
+  font-size: 55px;
+  line-height: 60px;
+  letter-spacing: 5px;
+  margin-bottom: 40px;
+}
+.text-top p {
+  color: white;
+  opacity: 0.9;
+  font-size: 35px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  letter-spacing: 9px;
+}
+.text-top {
+  text-align: center;
+}
+.see {
+  text-align: center;
+  color: white;
+  background-color: rgb(36, 155, 202);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    inset 0px -3px 5px rgba(0, 0, 0, 0.25);
+  display: inline-block;
+  line-height: 33px;
+  margin-top: 26px;
+  width: 279px;
+  height: 55px;
+  font-size: 24px;
+  opacity: 0.8;
+}
+.see:hover {
+  opacity: 1;
+  background-color: rgb(33, 169, 223);
+}
+.see:active {
+  position: relative;
+  top: 5px;
+  opacity: 0.9;
+  box-shadow: none;
+}
+.item-top {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 954px;
+  height: 280px;
+  margin: 0px auto;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  top: 40px;
+}
+.item {
+  margin: 0 auto;
+  width: 224px;
+  height: 100%;
+  color: white;
+  box-shadow: 2px 9px 13px 3px rgba(0, 0, 0, 0.1);
+}
+.item p {
+  margin-bottom: 10px;
+}
+.item h3 {
+  margin-bottom: 40px;
+  font-weight: normal;
+}
+.item img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 54px;
+  margin-top: 30px;
+}
+.first {
+  background-color: rgb(65, 155, 65);
+}
+.second {
+  background-color: rgb(83, 113, 196);
+}
+.third {
+  background-color: rgb(212, 84, 84);
+}
+
+/* konten produk */
+.produk {
+  margin: 180px 0;
+  padding: 30px 0;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    #079ef2 0%,
+    rgba(64, 179, 245, 0.770729) 55.21%,
+    rgba(67, 115, 139, 0.952) 99.99%,
+    rgba(255, 253, 253, 0) 100%
+  );
+  box-shadow: 2px 14px 13px 3px rgba(0, 0, 0, 0.3);
+}
+.item-produk {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1270px;
+  margin: 0 auto;
+  background-color: #83b7d5;
+  box-shadow: 2px 14px 13px 3px rgba(0, 0, 0, 0.3);
+}
+.pilihan {
+  margin: 0 auto;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 24%;
+  height: 350px;
+  background-color: rgb(233, 233, 233);
+  border: 1px solid #d2c0c0;
+  box-sizing: border-box;
+  box-shadow: 2px 7px 13px 3px rgba(0, 0, 0, 0.25);
+  border-radius: 13px;
+}
+.pilihan:hover {
+  position: relative;
+  top: -20px;
+  background-color: rgb(255, 250, 250);
+}
+.pilihan p {
+  margin-bottom: 40px;
+}
+.pilihan h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+.bts {
+  display: inline-block;
+  width: 100%;
+  border-bottom: 2px solid grey;
+  border-top: 2px solid grey;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  text-align: center;
+  line-height: 20px;
+}
+.list ul li {
+  list-style-type: none;
+  padding: 2px 0;
+}
+.list ul li:hover {
+  border-bottom: 1px solid rgb(212, 212, 212);
+}
+.list ul li img {
+  margin: auto 10px;
+  width: 26px;
+  height: 26px;
+}
+.plh {
+  display: inline-block;
+  width: 244px;
+  height: 36px;
+  background: #2fa4bd;
+  border-radius: 14px;
+  margin-top: 16px;
+  margin-left: 8px;
+  text-align: center;
+  padding: 7px 0;
+  color: white;
+  cursor: pointer;
+}
+.plh:active {
+  background: #4c8f9e;
+}
+.cek {
+  text-align: center;
+  font-weight: 400;
+  font-size: 32px;
+}
+.cek a {
+  color: white;
+  display: inline-block;
+  line-height: 70px;
+  width: 100%;
+  background-color: #2fa4bd;
+}
+.cek a:hover {
+  background-color: rgba(67, 115, 139, 0.952);
+}
+.cek a:active {
+  background-color: #4c8f9e;
+  position: relative;
+  top: -3px;
+}
+.pilih {
+  display: inline-block;
+  width: 244px;
+  height: 36px;
+  background: #2fa4bd;
+  border-radius: 14px;
+  margin-top: 51px;
+  margin-left: 8px;
+  text-align: center;
+  padding: 7px 0;
+  color: white;
+  cursor: pointer;
+}
+.pilih:active {
+  background: #4c8f9e;
+}
