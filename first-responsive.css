@@ -1,0 +1,43 @@
+@media (max-width:1000px){
+    .item-top{
+        position: static;
+
+    }
+    .text-top h2{
+        font-size: 35px;
+    }
+    .text-top p{
+        font-size: 24px;
+    }
+    .pilihan{
+        width: 60%;
+        margin-bottom: 50px;
+    }
+    .plh{
+        width: 100%;
+    }
+    .pilih{
+        width: 100%;
+    }
+}
+@media (max-width:670px){
+    .item-top{
+        position: static;
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .item{
+        flex: auto;
+        position: static;
+    }
+    .produk{
+        margin: 380px 0;
+    }
+    .menu-icon{
+        display: block;
+    }
+    .menu-head{
+        display: none;
+    }
+}
